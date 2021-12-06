@@ -1,0 +1,22 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://Yuliannn94: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@github.com/Yuliannn94/gentePrevalenteBack.git",
+  "author": "Yuliannn94 <yuliannn94@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^16.0.1",
+    "mongoose": "^6.0.14",
+    "nodemon": "^2.0.15"
+  }
+}
