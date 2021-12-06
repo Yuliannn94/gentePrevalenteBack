@@ -35,14 +35,7 @@ type Mutation {
     editCompany(
         _id: String!, fields: companyFields!): Company 
     
-    deleteCompany(
-        _id: String!
-        nombre: String!
-        razonSocial: String!
-        nit: String!
-        identificacion: String!
-        numeroEmpleados: String!
-        logo: String): Company 
+    deleteCompany(_id: String, nombre: String): Company 
 }`;
 
 export { companyTypes };
